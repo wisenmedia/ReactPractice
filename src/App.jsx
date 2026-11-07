@@ -13,7 +13,7 @@ function App() {
       <div>
         <h1>Welcome to ReactJS</h1>
         <h2>Best Place on Earth to Learn ReactJS</h2>
-        <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 bg-gray-800 text-orange-500">
+        <div>
           <InputForm />
         </div>
       </div>

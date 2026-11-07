@@ -9,7 +9,7 @@ function InputForm() {
             name="fullName"
             id=""
             placeholder="enter fullname"
-            className="w-full bg-white rounded-sm"
+            className="w-full bg-white rounded"
           />
         </div>
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
@@ -19,10 +19,12 @@ function InputForm() {
             name="email"
             id=""
             placeholder="Enter Email"
-            className="w-full bg-white rounded-sm"
+            className="w-full bg-white rounded"
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="cursor-pointer">
+          Submit
+        </button>
       </div>
     </>
   );
